@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@400;500&family=Nunito+Sans:wght@300;500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --sc-medium-blue: #219ebc;
+    --sc-dark-blue: #023047;
+    --sc-dark-orange: #fb8500;
+    --sc-yellow: #ffb703;
+    --sc-white-color: #ffffff;
+    --sc-font-main: 'Geologica', sans-serif;
+    --sc-font-second: 'Nunito Sans', sans-serif;
+}
+
+html, body{
+    font-size: 16px;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    width: 100%;
+    min-height: 100vh;
+}
+
+header {
+    background: rgb(251,133,0);
+    background-image: linear-gradient(180deg, rgba(251,133,0,0.80) 31%, rgba(255,183,3,0.75) 46%, rgba(2,48,71,0.99) 80%), url("/img/stock-photo-the-bixby-creek-bridge-at-night-in-big-sur-california-272240135.jpg");
+    height: 100vh;
+    background-position: 0 0, 50%;
+    background-repeat: no-repeat;
+    background-size: auto, cover;
+    background-attachment: scroll,scroll;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+nav{
+    background-color: transparent;
+    color: var(--sc-white-color);
+    width: 100%;
+}
+a{
+    color: var(--sc-white-color);
+}
+footer{
+    background-color: var(--sc-dark-blue);
+    color: var(--sc-yellow);
+    font-weight: 500;
+    font-size: 1rem;
+    padding-bottom: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+h2, h3, h4, h5, h6 {
+    font-size: 1.5rem;
+    font-family: var(--sc-font-second);
+    text-transform: uppercase;
+}
+
+h1{
+    text-transform: uppercase;
+    font-size: 1.75rem;
+    font-weight: 500;
+    color: var(--sc-white-color);
+    font-style: italic; 
+    font-family: var(--sc-font-main);
+}
+p{
+    color: var(--sc-white-color);
+  
+    font-size: 1rem;
+    font-family: var(--sc-font-second);
+    font-weight: 800;
+}
+.hero-content p{
+  font-weight: 500;
+}
+
+.btn{
+    background-color: var(--sc-yellow);
+    color: var(--sc-dark-blue);
+}
+.btn:hover{
+    background-color: var(--sc-medium-blue);
+    color: var(--sc-white-color);
+}
+
+i:hover{
+    color: var(--sc-white-color);
+}
+
+.navbar{
+    display: flex;
+    color: var(--sc-dark-blue);
+
+    
+}
+
+.navbar-toggler{
+    padding: 0;
+    border-radius: 0;
+    font-size: 1.5rem;
+    border: none;
+    color: var(--sc-dark-blue);
+    margin-right: 1.5rem;
+  
+}
+.navbar-toggler-icon i{
+    font-size: 2rem;
+    color: var(--sc-white-color);
+}
+
+.navbar-toggler:hover{
+    cursor: pointer;
+}
+.navbar-toggler:focus{
+    box-shadow: none;
+}
+
+
+
+.header-logo{
+    max-height: 200px;
+    max-width: 200px;
+    height: 75px;
+    width: auto;
+}
+
+.banner-container{
+
+  padding: 1rem;
+ 
+}
+
+.wrap-color{
+    background-color: var(--sc-yellow);
+    color: var(--sc-white-color);
+    padding-top: 1.5rem;
+ 
+    padding-bottom: 1.5rem;
+    text-align: left;
+}
+.content-wrap-1 h2 {
+    padding-left: .2rem;
+    font-weight: 700;
+    letter-spacing: .1rem;
+    font-style: italic;
+    border-bottom: 2px solid var(--sc-white-color);
+}
+.content-wrap-1 p {
+    font-size: 1.1rem;
+
+    text-align: right;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    color: var(--sc-dark-blue);
+    font-weight: 600;
+}
+
+.col-color, .col-color p{
+    background-color: var(--sc-dark-blue);
+    color: var(--sc-yellow);
+}
+
+.col-img{
+    display: none;
+}
+
+.service-content{
+    padding: 1rem;
+    text-align: center;
+}
+.service-content li{
+    text-align: left;
+  
+}
+.r-1{
+    color: var(--sc-dark-blue);
+}
+
+.r-1 p{
+    color: var(--sc-dark-blue);
+}
